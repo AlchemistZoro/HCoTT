@@ -7,11 +7,11 @@ We will open source the code after the paper is officially accepted.
 
 # Example of HCoTT
 ![](./example.pdf)
-This is a three-level HCoT. $q$: "what causes direct damage to the lungs? }". $A_c$: "\textit{(A) breathing (B) oxygen (C) influenza (D) parasites (E) cigars (F) germs (G) steroids (H) respiring}". $a_{t}^*$: "\textit{(E) cigars". 
+This is a three-level HCoT. $q$: "what causes direct damage to the lungs? ". $A_c$: "(A) breathing (B) oxygen (C) influenza (D) parasites (E) cigars (F) germs (G) steroids (H) respiring}". $a_{t}^*$: "(E) cigars". 
 
 All explanation nodes need to go through the Mask function after being generated. $v_{1}^1$,$v_{2}^1$ are the explanations deduced from the problem $q$. $v_{1}^1$: "[Mask] can directly damage the lungs when smoked, leading to respiratory issues and diseases such as lung cancer.". $v_{2}^1$: "[Mask] can cause direct damage to the lungs when smoked, leading to respiratory issues and potential lung diseases.". 
 
-$v_{1}^2$,$v_{2}^2$ are the explanations deduced from $v_{1}^1$, and $v_{3}^2$,$v_{4}^2$ are the explanations deduced from $v_{2}^1$. $v_{1}^2$:"\textit{Smoking [Mask] introduces harmful chemicals and toxins directly into the lungs, causing damage to the respiratory system.}". $v_{2}^2$:"[Mask] and [Mask] can also cause direct damage to the lungs by causing infections and inflammation.". $v_{3}^2$:"[Mask] and [Mask] can also cause direct damage to the lungs by causing infections and respiratory illnesse". $v_{4}^2$:"Smoking [Mask] exposes the lungs to harmful chemicals and toxins, which can lead to direct damage and irritation of the lung tissue.". 
+$v_{1}^2$,$v_{2}^2$ are the explanations deduced from $v_{1}^1$, and $v_{3}^2$,$v_{4}^2$ are the explanations deduced from $v_{2}^1$. $v_{1}^2$:"Smoking [Mask] introduces harmful chemicals and toxins directly into the lungs, causing damage to the respiratory system.". $v_{2}^2$:"[Mask] and [Mask] can also cause direct damage to the lungs by causing infections and inflammation.". $v_{3}^2$:"[Mask] and [Mask] can also cause direct damage to the lungs by causing infections and respiratory illnesse". $v_{4}^2$:"Smoking [Mask] exposes the lungs to harmful chemicals and toxins, which can lead to direct damage and irritation of the lung tissue.". 
 
 
 # Prompt of HCoTT
