@@ -3,10 +3,10 @@
 We will open source the code after the paper is officially accepted. 
 
 # Frame Work of HCoTT
-![](./main.pdf)
+![](https://github.com/AlchemistZoro/HCoTT/edit/main/main.pdf)
 
 # Example of HCoTT
-![](./example.pdf)
+![](https://github.com/AlchemistZoro/HCoTT/edit/main/example.pdf)
 This is a three-level HCoT. $q$: "what causes direct damage to the lungs? ". $A_c$: "(A) breathing (B) oxygen (C) influenza (D) parasites (E) cigars (F) germs (G) steroids (H) respiring}". $a_{t}^*$: "(E) cigars". 
 
 All explanation nodes need to go through the Mask function after being generated. $v_{1}^1$,$v_{2}^1$ are the explanations deduced from the problem $q$. $v_{1}^1$: "[Mask] can directly damage the lungs when smoked, leading to respiratory issues and diseases such as lung cancer.". $v_{2}^1$: "[Mask] can cause direct damage to the lungs when smoked, leading to respiratory issues and potential lung diseases.". 
